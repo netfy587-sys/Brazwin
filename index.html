@@ -1,1 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Brazwin – Find What You Need | Your Choice, Your Way</title>
+<meta name="description" content="A reader's handbook for smarter online choices: explore your options, check quality you can trust and learn more online. Adults 18+ only.">
+<meta name="keywords" content="brazino777, find what you need, explore your options, find your best match, explore what's trending, make your next move">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=Public+Sans:wght@400;500;700&display=swap">
+<style>
+:root{--bg:#f2faf9;--paper:#fff;--ink:#072327;--muted:#476468;--line:#cfe5e3;--teal:#04353d;--aqua:#00a39b;--orange:#ff8a1f;--fs:1.12rem;--onteal:#fff;color-scheme:light dark;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#061a1d;--paper:#0d2a2f;--ink:#e8f6f5;--muted:#9bbcbc;--line:#1b4247;--teal:#0a3d45;--aqua:#2fd6cc}}
+:root[data-theme="dark"]{--bg:#061a1d;--paper:#0d2a2f;--ink:#e8f6f5;--muted:#9bbcbc;--line:#1b4247;--teal:#0a3d45;--aqua:#2fd6cc}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 var(--fs)/1.75 "Public Sans",system-ui,Arial,sans-serif}
+h1,h2,h3,.logo,.btn,summary{font-family:Fraunces,Georgia,"Times New Roman",serif}
+.wrap{max-width:780px;margin:0 auto;padding:0 20px}
+.hero{background:var(--teal);color:var(--onteal);padding-bottom:70px;position:relative;overflow:hidden}
+.hero::after{content:"";position:absolute;right:-90px;bottom:-110px;width:320px;height:320px;border-radius:50%;background:var(--orange);opacity:.95}
+.nav{max-width:1000px;margin:0 auto;padding:16px 20px;display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
+.logo{font-weight:800;font-size:1.6rem}
+.logo i{font-style:normal;color:var(--orange)}
+.tools{display:flex;gap:6px;align-items:center;font-size:.85rem}
+.tools button{background:transparent;color:#fff;border:1.5px solid rgba(255,255,255,.6);border-radius:8px;padding:4px 12px;font:700 .9rem "Public Sans",Arial,sans-serif;cursor:pointer}
+.tools button:hover{background:rgba(255,255,255,.15)}
+.hero .wrap{position:relative;z-index:1;padding-top:40px}
+.tagline{font-weight:700;color:var(--orange);margin:0 0 10px;font-size:.95rem}
+h1{font-size:clamp(2.2rem,6.4vw,4rem);line-height:1.05;margin:0 0 16px;font-weight:800;letter-spacing:-1px}
+.deck{font-size:1.25rem;max-width:34em;margin:0 0 22px;opacity:.93}
+.chips{display:flex;gap:8px;flex-wrap:wrap}
+.chips span{border:1.5px solid rgba(255,255,255,.55);border-radius:99px;padding:3px 14px;font-size:.85rem}
+.progress{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--paper);border-bottom:1px solid var(--line)}
+.progress div{max-width:1000px;margin:0 auto;padding:8px 20px;display:flex;align-items:center;gap:14px;font-size:.85rem;color:var(--muted)}
+.pb{flex:1;height:8px;border-radius:99px;background:var(--line);overflow:hidden}
+.pb i{display:block;height:100%;width:0;background:var(--orange)}
+main{padding-top:30px}
+.chapter{padding:34px 0 8px;border-top:1px solid var(--line)}
+.chapter:first-child{border:0}
+.no{font:800 3.6rem/1 Fraunces,Georgia,serif;color:var(--aqua);opacity:.5}
+h2{font-size:clamp(1.7rem,4.6vw,2.4rem);line-height:1.12;margin:4px 0 14px;font-weight:800;letter-spacing:-.6px}
+h3{font-size:1.2rem;margin:1.3em 0 .2em}
+p{margin:0 0 1.1em}
+mark{background:#ffd9a8;color:#2a1600;padding:0 4px;border-radius:3px}
+.quote{background:var(--teal);color:#fff;border-radius:22px;padding:26px 28px;margin:1.6em 0;font:600 1.45rem/1.35 Fraunces,Georgia,serif}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin:1.3em 0}
+.cd{background:var(--paper);border:2px solid var(--line);border-radius:18px;padding:16px 18px;border-top:7px solid var(--aqua)}
+.cd:nth-child(2){border-top-color:var(--orange)}
+.cd b{display:block;font-family:Fraunces,Georgia,serif;font-size:1.1rem;margin-bottom:4px}
+.cd span{font-size:.95rem;color:var(--muted)}
+.panel{background:var(--paper);border:2px solid var(--line);border-radius:22px;padding:22px 24px;margin:1.4em 0}
+.panel h3{margin-top:0}
+.check label{display:flex;gap:12px;padding:9px 0;border-bottom:1px solid var(--line);cursor:pointer;align-items:flex-start}
+.check label:last-of-type{border:0}
+.check input{width:22px;height:22px;accent-color:var(--aqua);flex:none;margin-top:5px}
+.meter{height:12px;border-radius:99px;background:var(--line);overflow:hidden;margin:14px 0 6px}
+.meter i{display:block;height:100%;width:0;background:var(--aqua);transition:width .3s}
+.res{font-weight:700;margin:0}
+.q{display:grid;grid-template-columns:1fr auto;gap:10px;align-items:center;padding:8px 0;border-bottom:1px solid var(--line)}
+.q:last-of-type{border:0}
+select{font:inherit;font-size:.95rem;padding:6px 10px;border-radius:8px;border:2px solid var(--line);background:var(--bg);color:var(--ink)}
+.verdict{margin-top:12px;padding:14px 16px;border-radius:14px;background:var(--bg);border:2px dashed var(--aqua);font-weight:700}
+ol.steps{list-style:none;padding:0;margin:1.2em 0;counter-reset:s}
+ol.steps li{counter-increment:s;position:relative;padding:0 0 16px 56px}
+ol.steps li::before{content:counter(s);position:absolute;left:0;top:0;width:38px;height:38px;border-radius:12px;background:var(--orange);color:#2a1600;font:800 1.2rem Fraunces,Georgia,serif;display:grid;place-items:center}
+details{background:var(--paper);border:2px solid var(--line);border-radius:16px;padding:12px 18px;margin-bottom:10px}
+summary{cursor:pointer;font-weight:700;font-size:1.05rem}
+details p{margin:10px 0 0;color:var(--muted)}
+.note{background:var(--paper);border-left:8px solid var(--orange);border-radius:12px;padding:16px 20px;font-size:.97rem;color:var(--muted)}
+.cta{background:var(--orange);color:#2a1600;text-align:center;padding:64px 20px;margin-top:50px}
+.cta h2{font-size:clamp(2.1rem,6vw,3.4rem);margin:0 0 10px}
+.cta p{max-width:46ch;margin:0 auto 22px;font-size:1.15rem}
+.btn{display:inline-block;background:var(--teal);color:#fff;padding:15px 34px;border-radius:999px;font-weight:800;font-size:1.15rem;text-decoration:none}
+a:focus-visible,summary:focus-visible,input:focus-visible,select:focus-visible,button:focus-visible{outline:3px solid var(--orange);outline-offset:3px}
+footer{padding:24px 20px;text-align:center;font-size:.85rem;color:var(--muted)}
+#top{position:fixed;right:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));width:46px;height:46px;border-radius:50%;border:0;background:var(--aqua);color:#031a1c;font-size:1.3rem;font-weight:800;cursor:pointer;display:none;z-index:6}
+@media (max-width:560px){.hero::after{width:200px;height:200px;right:-70px;bottom:-80px}.q{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="hero">
+<div class="nav"><div class="logo">Brazwin<i>.</i></div>
+<div class="tools" role="group" aria-label="Text size">Text size <button id="sm" aria-label="Smaller text">A−</button><button id="lg" aria-label="Larger text">A+</button></div></div>
+<div class="wrap">
+<p class="tagline">Explore What’s Trending · Reader’s handbook</p>
+<h1>Find What You Need: The Brazwin Handbook for Smarter Choices</h1>
+<p class="deck">Your Search Ends Here. A calm, honest read on how to explore your options, check quality you can trust and make a choice that is truly your way.</p>
+<div class="chips"><span>9 min read</span><span>Simple &amp; Convenient</span><span>18+ only</span></div>
+</div></div>
 
+<div class="progress"><div><span id="left">9 min left</span><span class="pb"><i id="pb"></i></span></div></div>
+
+<main><div class="wrap">
+
+<section class="chapter"><div class="no">1</div>
+<h2>Find What You Need</h2>
+<p>Most of us start with a search box and a small hope: Discover Something New without wasting time. The trouble is that loud adverts often beat quiet facts. This handbook puts the facts first.</p>
+<p>You will learn how to Browse Our Collection of ideas the smart way, Learn More Online before you commit, and Find the Right Solution for your own needs. Ready to Discover More? Take a Look Today and read at your own speed.</p>
+</section>
+
+<section class="chapter"><div class="no">2</div>
+<h2>Explore Your Options</h2>
+<p>Start wide. See What’s Available, write down three or four names, and only then look closer. A New Choice Awaits whenever you compare instead of rushing.</p>
+<div class="cards">
+<div class="cd"><b>Explore Popular Choices</b><span>Popular is a hint, not proof. Check it.</span></div>
+<div class="cd"><b>See What’s Inside</b><span>Open terms, help pages and payment rules first.</span></div>
+<div class="cd"><b>There’s More to Explore</b><span>Look beyond the first search result.</span></div>
+</div>
+<div class="quote">Make Every Click Count: read first, decide later.</div>
+</section>
+
+<section class="chapter"><div class="no">3</div>
+<h2>Explore What’s Trending</h2>
+<p>Look What’s New and new names appear every week. Some are well run; others disappear fast. When people hear about brazino777 or any other name, the best next step is the same: search, read independent reviews, compare, then decide.</p>
+<p>Find Your Next Favorite by comparing at least three sources, including complaint pages. If every source only praises, be careful.</p>
+</section>
+
+<section class="chapter"><div class="no">4</div>
+<h2>Quality You Can Trust</h2>
+<p>Trust is checked, not assumed. To Discover Quality Choices, tick each point only when you have really done it.</p>
+<div class="panel check">
+<label><input type="checkbox"><span>I read the terms, bonus rules and withdrawal policy in full.</span></label>
+<label><input type="checkbox"><span>I checked licence details with the official regulator.</span></label>
+<label><input type="checkbox"><span>I confirmed this is legal where I live.</span></label>
+<label><input type="checkbox"><span>I use only the official website and keep my OTP private.</span></label>
+<label><input type="checkbox"><span>I set a budget and a time limit.</span></label>
+<div class="meter"><i id="cb"></i></div><p class="res" id="cm">0 of 5 checks done</p>
+</div>
+</section>
+
+<section class="chapter"><div class="no">5</div>
+<h2>Find Your Best Match</h2>
+<p>Find Your Perfect Match with a quick scorecard. Pick an answer for each line and see where an option stands.</p>
+<div class="panel" id="sc">
+<h3>Option scorecard</h3>
+<div class="q"><span>Are the rules short and easy to find?</span><select><option value="">Choose</option><option value="2">Yes</option><option value="1">Partly</option><option value="0">No</option></select></div>
+<div class="q"><span>Is real support available?</span><select><option value="">Choose</option><option value="2">Yes</option><option value="1">Partly</option><option value="0">No</option></select></div>
+<div class="q"><span>Are payments and fees clear?</span><select><option value="">Choose</option><option value="2">Yes</option><option value="1">Partly</option><option value="0">No</option></select></div>
+<div class="q"><span>Is it allowed where you live?</span><select><option value="">Choose</option><option value="2">Yes</option><option value="1">Not sure</option><option value="0">No</option></select></div>
+<div class="verdict" id="vd">Answer all four to see your result.</div>
+</div>
+<p>Discover Your Next Pick only when the score is strong. Make A Choice Today only if you feel ready, never rushed.</p>
+</section>
+
+<section class="chapter"><div class="no">6</div>
+<h2>Explore. Choose. Enjoy.</h2>
+<p>Keep it Simple &amp; Convenient. Explore New Possibilities one step at a time:</p>
+<ol class="steps">
+<li><b>Explore.</b> Visit Our Website Today for any option you like and read its information pages. Start Exploring Today, not spending.</li>
+<li><b>Choose.</b> Get Started Today only if your checklist is complete and you are 18 or older.</li>
+<li><b>Enjoy.</b> Keep to your limits, keep it fun, and stop the moment it is not.</li></ol>
+</section>
+
+<section class="chapter"><div class="no">7</div>
+<h2>Find Something Better</h2>
+<p>You are never stuck. If terms change, support goes quiet or you feel pushed, walk away and Find Something Better. Your Choice, Your Way includes the choice to leave.</p>
+<p>If spending or time starts to feel out of control, talk to someone you trust and contact a local support organisation.</p>
+</section>
+
+<section class="chapter"><div class="no">8</div>
+<h2>Learn More Online</h2>
+<details><summary>How do I choose safely?</summary><p>Compare independent reviews, read the rules, start small and never spend money you cannot afford to lose.</p></details>
+<details><summary>Who can use this kind of service?</summary><p>Only adults aged 18 or above, and only where it is legal under local law.</p></details>
+<details><summary>Where do I find current details?</summary><p>On the official website and its help section, because terms can change.</p></details>
+<details><summary>Is this handbook advice?</summary><p>No. It is general information, not financial advice or a promise of results.</p></details>
+<div class="note"><strong>Responsible use:</strong> Set limits, never chase losses, and seek local support if you feel you are losing control.</div>
+</section>
+</div></main>
+
+<div class="cta">
+<h2>Make Your Next Move</h2>
+<p>Ready to Discover More? Use what you learned and keep every click in your control.</p>
+<a class="btn" href="#">Visit Brazwin</a>
+</div>
+<footer>&copy; 2026 Brazwin handbook. 18+ only. Please check local laws before using any online service.</footer>
+<button id="top" aria-label="Back to top">↑</button>
+
+<script>
+(function(){
+var d=document.documentElement,pb=document.getElementById('pb'),left=document.getElementById('left'),tp=document.getElementById('top');
+function sc(){var m=d.scrollHeight-d.clientHeight,r=m>0?d.scrollTop/m:0;pb.style.width=(r*100)+'%';
+var mins=Math.max(0,Math.ceil(9*(1-r)));left.textContent=mins>0?mins+' min left':'Finished';tp.style.display=d.scrollTop>600?'block':'none'}
+addEventListener('scroll',sc,{passive:true});sc();
+tp.onclick=function(){scrollTo({top:0,behavior:'smooth'})};
+var fs=1.12;function sz(n){fs=Math.min(1.5,Math.max(.95,fs+n));d.style.setProperty('--fs',fs+'rem')}
+document.getElementById('sm').onclick=function(){sz(-.08)};document.getElementById('lg').onclick=function(){sz(.08)};
+var bx=document.querySelectorAll('.check input'),cb=document.getElementById('cb'),cm=document.getElementById('cm');
+function upd(){var n=0;bx.forEach(function(b){if(b.checked)n++});cb.style.width=(n/bx.length*100)+'%';cm.textContent=n===bx.length?'All 5 checks done. You are ready to decide.':n+' of 5 checks done'}
+bx.forEach(function(b){b.addEventListener('change',upd)});
+var sel=document.querySelectorAll('#sc select'),vd=document.getElementById('vd');
+function calc(){var t=0,a=0;sel.forEach(function(s){if(s.value!==''){a++;t+=+s.value}});
+if(a<sel.length){vd.textContent='Answer all four to see your result.';return}
+vd.textContent=t>=7?'Score '+t+'/8: looks promising. Keep checking the licence and terms.':t>=4?'Score '+t+'/8: needs more research before you decide.':'Score '+t+'/8: be careful. Consider walking away and finding something better.'}
+sel.forEach(function(s){s.addEventListener('change',calc)});
+})();
+</script>
+</body>
+</html>
